@@ -1,0 +1,36 @@
+{
+    "name": "vantadark",
+    "displayName": "Vantadark",
+    "description": "A minimal dark theme that absorbs everything unnecessary.",
+    "version": "1.1.0",
+    "publisher": "ams-sth",
+    "author": "Amsh Shrestha <amshstha37@gmail.com>",
+    "icon": "vantadark.png",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "one dark",
+        "minimal",
+        "vantadark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vantadark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vantadark.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ams-sth/vantadark"
+    },
+    "license": "MIT"
+}
