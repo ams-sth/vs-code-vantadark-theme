@@ -1,7 +1,7 @@
 {
     "name": "vantadark",
     "displayName": "Vantadark",
-    "description": "A minimal dark theme that absorbs everything unnecessary.",
+    "description": "Vantadark and Vantabright — minimalist themes focused on clarity, restrained contrast, and balanced syntax coloring.",
     "version": "1.1.0",
     "publisher": "ams-sth",
     "author": "Amsh Shrestha <amshstha37@gmail.com>",
@@ -17,14 +17,25 @@
         "dark",
         "one dark",
         "minimal",
-        "vantadark"
+        "vantadark",
+        "light",
+        "jetbrains",
+        "typescript",
+        "developer",
+        "editor",
+        "coding"
     ],
     "contributes": {
         "themes": [
             {
                 "label": "Vantadark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/vantadark.json"
+                "path": "themes/vantadark.json"
+            },
+            {
+                "label": "Vantabright",
+                "uiTheme": "vs",
+                "path": "themes/vantabright.json"
             }
         ]
     },
@@ -32,5 +43,17 @@
         "type": "git",
         "url": "https://github.com/ams-sth/vantadark"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "themes": [
+        {
+            "label": "Vantadark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/vantadark-color-theme.json"
+        },
+        {
+            "label": "Vantabright",
+            "uiTheme": "vs",
+            "path": "./themes/vantabright-color-theme.json"
+        }
+    ]
 }
